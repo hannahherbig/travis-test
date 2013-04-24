@@ -8,6 +8,5 @@ notifications:
   irc:
     channels:
       - "irc.andrew12.net#BotTestLab"
-      - "irc.freenode.org#andrew12"
     on_success: change
     on_failure: always
