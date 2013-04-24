@@ -20,11 +20,11 @@ vows.describe('Array').addBatch({             // Batch
         assert.isUndefined(topic.pop());
       }
     }
-  },
-  'fails': {
-    topic: [][0],
-    'is an object': function (topic) {
-      assert.equal({}.toString.call(topic), '[object Object]')
-    }
   }
+//   'fails': {
+//     topic: [][0],
+//     'is an object': function (topic) {
+//       assert.equal({}.toString.call(topic), '[object Object]')
+//     }
+//   }
 }).export(module);
