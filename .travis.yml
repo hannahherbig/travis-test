@@ -6,5 +6,6 @@ node_js:
   - "0.6"
 notifications:
   irc:
-    - "irc.malkier.net#BotTestLab"
-    - "irc.freenode.org#andrew12"
+    channels:
+      - "irc.malkier.net#BotTestLab"
+      - "irc.freenode.org#andrew12"
