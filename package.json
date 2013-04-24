@@ -1,0 +1,12 @@
+{
+  "name": "travis-test",
+  "version": "0.0.0",
+  "description": "testing travis",
+  "main": "the-good-things.js",
+  "scripts": {
+    "test": "vows test.js --spec"
+  },
+  "dependencies": {
+    "vows": "~0.7.0"
+  }
+}
