@@ -7,5 +7,5 @@ node_js:
 notifications:
   irc:
     channels:
-      - "irc.malkier.net#BotTestLab"
+      - "irc.andrew12.net#BotTestLab"
       - "irc.freenode.org#andrew12"
